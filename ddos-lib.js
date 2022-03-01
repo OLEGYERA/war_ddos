@@ -30,7 +30,7 @@ Ddos1.prototype.run = function run(package_size, Target, Path = '/'){
         console.log('asdasda', e)
       }
     }
-    console.log("[" + (++_this.manager.loop_counter) + "][PxID: " + Proxy.id + "]Русский Корабль {" + Target + "} - пошел нахуй: Успешно - " + (_this.manager.success) + ', Ответно нахуй - ' +  (_this.manager.errors));
+    console.log("[" + (++_this.manager.loop_counter) + "][PxID: " + Proxy.id + "]Русский Военный Корабль {" + Target + "} - иди нахуй: Успешно - " + (_this.manager.success) + ', Ответно нахуй - ' +  (_this.manager.errors));
   }
 
   function bombaredByProxy(Proxy, Target){
